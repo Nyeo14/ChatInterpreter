@@ -4,19 +4,17 @@ Project Summary:
 
   Streaming is a trending online content-creating recreation/occupation where streamers interact with viewers via chat messages while live-broadcasting their desired activity
   (e.g. gaming). Because highlight-worthy content is only a small fraction of the stream, our project aims to use stream live chats to pre-process vods and to reduce editing
-  time by finding potential clips. 
+  time by finding potential clips. Assuming chat increases in speed when reacting to exciting or interesting content (further development after week 7 does not have this
+  assumption), we make clips based on chat speed, shortening the vod. We then try to classify the clips using Logistic Regression, MLP, RNN, and GRU into two categories:
+  worth watching and not worth watching.
   
-  Assuming chat increases in speed when reacting to exciting or interesting content (further development after week 7 does not have this assumption), we make clips based on
-  chat speed, shortening the vod. We then try to classify the clips using Logistic Regression, MLP, RNN, and GRU to filter unwanted clips. 
+  I titled the project "Twitch Chat Interpreter" because our data was pulled from twitch.tv, but this program should be applicable to other streaming platforms as well,
+  provided there is a way to obtain the chat data. We hard coded a few of the word embedding stopwords to match popular twitch emotes, but that should be the only change needed
+  (if at all) to apply this program to another streaming site.
   
-  We have several classification labels that each clip falls under, representing an emotion (amazement, disappointment, funny, etc.) but overall classify our clips into two 
-  categories: worth watching or not worth watching.
-  
-  I titled the project "Twitch Chat Interpreter" because our data was pulled from twitch.tv, but this program should be applicable to other streaming websites as well. We hard 
-  coded a few of the word embedding stopwords to match popular twitch emotes, but that should be the only change needed (if at all) to apply this program to another streaming
-  site.
-  
-  The full project report can be viewed in the file TwitchChatInterpreterReport.pdf
+  The full project report can be viewed in the file TwitchChatInterpreterReport.pdf.
+  As a TLDR of the project summary, we used machine learning and natural language processing to create a program that takes in as input the chats of a twitch stream and outputs
+  the timestamps of a series of clips that one may wish to include in a highlight reel.
 
 
 Below is a summary of the modules we used and their purpose.

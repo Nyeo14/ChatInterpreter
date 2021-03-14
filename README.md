@@ -15,6 +15,8 @@ Project Summary:
   I titled the project "Twitch Chat Interpreter" because our data was pulled from twitch.tv, but this program should be applicable to other streaming websites as well. We hard 
   coded a few of the word embedding stopwords to match popular twitch emotes, but that should be the only change needed (if at all) to apply this program to another streaming
   site.
+  
+  The full project report can be viewed in the file TwitchChatInterpreterReport.pdf
 
 
 Below is a summary of the modules we used and their purpose.

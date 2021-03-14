@@ -1,6 +1,7 @@
 This project is for UCI's 10 week project course "Project in Artificial Intelligence." I worked in a group of 3 with Duo Chen and Jingtian Li.
 
 Project Summary:
+
   Streaming is a trending online content-creating recreation/occupation where streamers interact with viewers via chat messages while live-broadcasting their desired activity
   (e.g. gaming). Because highlight-worthy content is only a small fraction of the stream, our project aims to use stream live chats to pre-process vods and to reduce editing
   time by finding potential clips. 

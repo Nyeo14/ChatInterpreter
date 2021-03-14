@@ -1,11 +1,15 @@
 This project is for UCI's 10 week project course "Project in Artificial Intelligence." I worked in a group of 3 with Duo Chen and Jingtian Li.
 
 Project Summary:
-  Streaming is a trending online content-creating recreation/occupation where streamers interact with viewers via chat messages while live-broadcasting their desired activity (e.g. gaming). Because highlight-worthy content is only a small fraction of the stream, our project aims to use stream live chats to pre-process vods and to reduce editing time by finding potential clips. 
+  Streaming is a trending online content-creating recreation/occupation where streamers interact with viewers via chat messages while live-broadcasting their desired activity
+  (e.g. gaming). Because highlight-worthy content is only a small fraction of the stream, our project aims to use stream live chats to pre-process vods and to reduce editing
+  time by finding potential clips. 
   
-  Assuming chat increases in speed when reacting to exciting or interesting content (further development after week 7 does not have this assumption), we make clips based on chat speed, shortening the vod. We then try to classify the clips using Logistic Regression, MLP, RNN, and GRU to filter unwanted clips. 
+  Assuming chat increases in speed when reacting to exciting or interesting content (further development after week 7 does not have this assumption), we make clips based on chat
+  speed, shortening the vod. We then try to classify the clips using Logistic Regression, MLP, RNN, and GRU to filter unwanted clips. 
   
-  We have several classification labels that each clip falls under, representing an emotion (amazement, disappointment, funny, etc.) but overall classify our clips into two categories: worth watching or not worth watching.
+  We have several classification labels that each clip falls under, representing an emotion (amazement, disappointment, funny, etc.) but overall classify our clips into two
+  categories: worth watching or not worth watching.
   
   I titled the project "Twitch Chat Interpreter" because our data was pulled from twitch, but this program should be applicable to other streaming websites as well.
 

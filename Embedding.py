@@ -1,6 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# this is the template learner, do not change this file but make copies and name them accordingly
+
+"""
+This module creates word the word embeddings using Gensim's word2vec. You can train sequentially, which trains and updates the embedding each time you add a stream,
+or you can train all at once in which you will input all the json files you wish to include and then it trains on all of them at once.
+"""
 
 
 # import all you need

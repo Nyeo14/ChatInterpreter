@@ -12,6 +12,7 @@ This project is for UCI's 10 week project course "Project in Artificial Intellig
   provided there is a way to obtain the chat data. We hard coded a few of the word embedding stopwords to match popular twitch emotes, but that should be the only change needed
   (if at all) to apply this program to another streaming site.
   <br/>
+  
   As a TLDR of the project summary, we used machine learning and natural language processing to create a program that takes in as input the chats of a twitch stream and outputs
   the timestamps of a series of clips that one may wish to include in a highlight reel. The full project report can be viewed in the file TwitchChatInterpreterReport.pdf.
 
